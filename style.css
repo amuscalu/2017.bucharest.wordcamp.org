@@ -2401,3 +2401,17 @@ article.page {
       font-size: 15px;
       font-weight: 400;
       text-transform: uppercase; }
+
+.site-footer {
+  background-color: #000000;
+  color: #ffffff; }
+  .site-footer #footer-widgets {
+    padding: 0;
+    margin: 0; }
+  .site-footer .site-info {
+    background-color: #000000 !important;
+    color: #ffffff;
+    padding: 10px; }
+    .site-footer .site-info .site-info-generator {
+      padding: 0 !important;
+      text-transform: uppercase; }
