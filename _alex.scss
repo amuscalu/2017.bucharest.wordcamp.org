@@ -1,0 +1,61 @@
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+
+body {
+	background-color: #ebebeb;
+}
+
+
+article.post,
+article.page {
+	position: relative;
+	margin-bottom: 100px;
+
+	.entry-header {
+		.entry-title {
+			font-size: 22px;
+			font-weight: bold;
+		}
+
+		.entry-meta {
+			a,
+			.author{
+				color: #fd3a13 !important;
+
+			}
+		}
+	}
+
+	.entry-content {
+
+		color: #6f6f6f;
+		font-size: 17px;
+
+		p {
+			font-size: 17px;
+			&:first-of-type {
+				font-size: 17px;
+			}
+		}
+
+		a.more-link {
+			background-color: #fcfcfc;
+			bottom: -60px;
+			color: #fd3a13 !important;
+			display: block;
+			left: 0px;
+			line-height: 50px;
+			position: absolute;
+			text-align: center;
+			text-transform: uppercase;
+			width: 100%;
+
+			&:hover {
+				color: #364652 !important;
+			}
+		}
+	}
+}

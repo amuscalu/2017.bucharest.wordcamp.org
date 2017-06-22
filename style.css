@@ -2349,3 +2349,50 @@ h1, h2, h3, h4, h5, h6, p, .entry-title {
 
 .wcorg-organizer .avatar {
   border-radius: 0 !important; }
+
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+body {
+  background-color: #ebebeb; }
+
+article.post,
+article.page {
+  position: relative;
+  margin-bottom: 100px; }
+  article.post .entry-header .entry-title,
+  article.page .entry-header .entry-title {
+    font-size: 22px;
+    font-weight: bold; }
+  article.post .entry-header .entry-meta a,
+  article.post .entry-header .entry-meta .author,
+  article.page .entry-header .entry-meta a,
+  article.page .entry-header .entry-meta .author {
+    color: #fd3a13 !important; }
+  article.post .entry-content,
+  article.page .entry-content {
+    color: #6f6f6f;
+    font-size: 17px; }
+    article.post .entry-content p,
+    article.page .entry-content p {
+      font-size: 17px; }
+      article.post .entry-content p:first-of-type,
+      article.page .entry-content p:first-of-type {
+        font-size: 17px; }
+    article.post .entry-content a.more-link,
+    article.page .entry-content a.more-link {
+      background-color: #fcfcfc;
+      bottom: -60px;
+      color: #fd3a13 !important;
+      display: block;
+      left: 0px;
+      line-height: 50px;
+      position: absolute;
+      text-align: center;
+      text-transform: uppercase;
+      width: 100%; }
+      article.post .entry-content a.more-link:hover,
+      article.page .entry-content a.more-link:hover {
+        color: #364652 !important; }
