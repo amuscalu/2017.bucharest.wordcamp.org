@@ -1,0 +1,152 @@
+/*
+You can add your own CSS here.
+
+Click the help icon above to learn more.
+*/
+/* Global */
+h1, h2, h3, h4, h5, h6, p, .entry-title {
+	font-family: 'Poppins' , serif !important;
+}
+
+/* Sidebar */
+.sidebar-widget {
+	background-color: #fff;
+	padding: 10px;
+	border-radius: 3px;
+}
+
+.sidebar-viewonmap {
+	background-color: #ff3300;
+	color: #fff;
+	padding: 10px;
+	border-radius: 3px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.sidebar-viewonmap:hover {
+	background-color: #ff3300;
+	color: #fff !important;
+}
+
+.widget .widget-title {
+	border-bottom: 0;
+	font-size: 100%;
+	color: #364652 !important;
+	font-weight: bold;
+	padding: 10px;
+	background-color: #fff;
+	border-radius: 3px;
+	text-transform: none;
+}
+
+.widget .widget-title a {
+	color: #364652 !important;
+}
+
+#primary-sidebar input[type='submit'] {
+	background-color: #ff3300 !important;
+	font-family: 'Poppins';
+	font-size: 100%;
+	font-weight: 500;
+	color: #fff;
+	width: 100%;
+	margin-top: -15px;
+}
+
+/* Call to actions */
+.textwidget {
+	display: inline-flex;
+}
+
+#text-2 {
+	width: 100% !important;
+}
+
+#central1, #central2, #central3 {
+	position: relative;
+	height: 240px;
+	width: 33%;
+	overflow: hidden;
+	background-size: 100%;
+	margin-right: -4px;
+}
+
+#central1 {
+	background-image: linear-gradient(rgba(17,17,17,0.5),rgba(17,17,17,0.8)), url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image1.jpg');
+}
+
+#central2 {
+	background-image: linear-gradient(rgba(17,17,17,0.5),rgba(17,17,17,0.8)), url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image2.jpg');
+}
+
+#central3 {
+	background-image: linear-gradient(rgba(17,17,17,0.5),rgba(17,17,17,0.8)), url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image3.jpg');
+}
+
+.c-widget-title {
+	font-size: 24px;
+	color: #ffffff;
+	padding-top: 60px;
+	padding-left: 20px;
+}
+
+.c-text-widget {
+	font-size: 15px;
+	color: #ffffff;
+	padding-left: 20px;
+	padding-right: 30px;
+	padding-top: 20px;
+}
+
+.c-text-widget a {
+	font-size: 16px;
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 700px) {
+	.textwidget {
+		display: inline-block;
+	}
+
+	#central1, #central2, #central3 {
+		width: 100%;
+	}
+}
+
+/* Organizers Page */
+.page-id-12 h2 {
+	font-size: 100% !important;
+	padding: 10px;
+	text-align: center !important;
+}
+
+.page-id-12 .entry-content {
+	width: 100%;
+}
+
+.page-id-12 .entry-header .entry-title {
+	text-align: center;
+}
+
+.wcorg-organizer:first-child {
+	border-top: 0;
+}
+
+.wcorg-organizers {
+	position: relative;
+	display: inline-block;
+	width: 100%;
+}
+
+.wcorg-organizer {
+	width: 33%;
+	display: inline-block;
+	margin-right: 30px;
+	margin-left: 20px;
+}
+
+.wcorg-organizer .avatar {
+	border-radius: 0 !important;
+}
