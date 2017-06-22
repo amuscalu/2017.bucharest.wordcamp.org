@@ -66,3 +66,25 @@ article.page {
 		}
 	}
 }
+
+
+.site-footer {
+	background-color: #000000;
+	color: #ffffff;
+
+	#footer-widgets {
+		padding: 0;
+		margin: 0;
+	}
+
+	.site-info {
+		background-color: #000000 !important;
+		color: #ffffff;
+		padding: 10px;
+
+		.site-info-generator {
+			padding: 0 !important;
+			text-transform: uppercase;
+		}
+	}
+}
