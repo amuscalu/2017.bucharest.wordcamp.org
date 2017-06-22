@@ -2396,3 +2396,8 @@ article.page {
       article.post .entry-content a.more-link:hover,
       article.page .entry-content a.more-link:hover {
         color: #364652 !important; }
+    article.post .entry-content .sharedaddy .sd-title,
+    article.page .entry-content .sharedaddy .sd-title {
+      font-size: 15px;
+      font-weight: 400;
+      text-transform: uppercase; }

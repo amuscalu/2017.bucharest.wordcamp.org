@@ -22,7 +22,7 @@ article.page {
 
 		.entry-meta {
 			a,
-			.author{
+			.author {
 				color: #fd3a13 !important;
 
 			}
@@ -30,7 +30,6 @@ article.page {
 	}
 
 	.entry-content {
-
 		color: #6f6f6f;
 		font-size: 17px;
 
@@ -55,6 +54,14 @@ article.page {
 
 			&:hover {
 				color: #364652 !important;
+			}
+		}
+
+		.sharedaddy {
+			.sd-title {
+				font-size: 15px;
+				font-weight: 400;
+				text-transform: uppercase;
 			}
 		}
 	}
