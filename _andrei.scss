@@ -1,17 +1,19 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700');
+
 body {
   font-family: "Poppins", sans-serif;
 }
 .site-header hgroup {
   position: relative;
   z-index: 1;
-  padding: 150px 0 50px;
+  padding: 70px 0 35px;
 }
 .site-title {
   background-image: url("https://2017.bucharest.wordcamp.org/files/2017/06/wcrobuc_logo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center center;
-  max-width: 100%;
+  max-width: 375px;
 }
 
 .site-header {
@@ -34,8 +36,7 @@ body {
 .site-description {
   display: block;
   color: #fff;
-  margin-top: 30px;
-font-size: 26px;
+  font-size: 23px;
   text-transform: uppercase;
   font-family: "Poppins", sans-serif;
   font-weight: bold;
@@ -57,18 +58,21 @@ font-size: 26px;
       &:last-child {
         margin-right: 0;
       }
-      &.menu-item-has-children > a:after {
-        content: "\f347";
-        font-family: "Dashicons";
-        top: 1px;
-        left: 5px;
-        position: relative;
-        font-size: 12px;
+      &.menu-item-has-children > a {
+        padding-right: 0;
+        &:after {
+          content: "\f347";
+          font-family: "Dashicons";
+          top: 1px;
+          left: 5px;
+          position: relative;
+          font-size: 12px;
+        }
       }
       a {
         color: #000;
-        font-size: 18px;
-        padding: 30px 0;
+        font-size: 14px;
+        padding: 24px 0;
         text-transform: uppercase;
         &:before {
           content: none;
@@ -125,6 +129,9 @@ font-size: 26px;
       padding: 10px 0;
       display: block;
     }
+  }
+  .menu {
+    display: none;
   }
 }
 
