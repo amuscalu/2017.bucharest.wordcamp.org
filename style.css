@@ -145,99 +145,8 @@ input[type='submit']:hover {
   margin: auto;
   display: block; }
 
-.main-navigation {
-  background: #fff;
-  bottom: -4.375rem;
-  font-family: "Roboto", sans-serif;
-  left: 0;
-  position: absolute;
-  text-align: left;
-  width: 100%; }
-
-.main-navigation ul {
-  margin: 0 auto;
-  max-width: 62rem;
-  padding: 0 1rem; }
-
-.main-navigation ul li.current-menu-item > a, .main-navigation ul li.current_page_item > a, .main-navigation ul li.current_page_ancestor > a, .main-navigation ul li.current-menu-parent > a {
-  color: #7e6358; }
-
-.main-navigation ul > li {
-  display: inline-block; }
-
-.main-navigation ul > li a {
-  color: #364652 !important;
-  display: block;
-  padding: 1.6875rem .66667rem 1.6875rem 0;
-  text-decoration: none;
-  text-transform: none !important;
-  -moz-transition: color 300ms;
-  -o-transition: color 300ms;
-  -webkit-transition: color 300ms;
-  transition: color 300ms; }
-
-.main-navigation ul > li a:before {
-  color: #364652 !important;
-  content: '|';
-  margin-right: .75rem; }
-
-.main-navigation ul > li.current-menu-item a, .main-navigation ul > li a:hover {
-  color: #2e99c9 !important; }
-
-.main-navigation ul > li.nav-register-now a {
-  color: #fff !important; }
-
-.main-navigation ul > li.nav-register-now a:before {
-  content: '' !important; }
-
-.main-navigation ul > li:first-child a:before {
-  content: ""; }
-
-.main-navigation ul > li.menu-item-has-children {
-  position: relative; }
-
-.main-navigation ul > li.menu-item-has-children > a {
-  padding-right: 1rem; }
-
-.main-navigation ul > li.menu-item-has-children > a:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: .2963rem;
-  margin-top: -2px;
-  height: 0;
-  width: 0;
-  border: 4px solid transparent;
-  border-top-color: #45a87c !important; }
-
-.main-navigation ul > li.menu-item-has-children > a:hover:after {
-  border-top-color: #e97067; }
-
-.main-navigation ul li:hover ul {
-  display: block; }
-
-.main-navigation ul ul {
-  background: rgba(255, 255, 255, 0.9);
-  display: none;
-  padding: .66667rem 1.125rem;
-  position: absolute;
-  top: 4em;
-  width: auto; }
-
-.main-navigation ul ul li {
-  display: block; }
-
-.main-navigation ul ul a {
-  padding: .75rem 0;
-  white-space: nowrap; }
-
-.main-navigation ul ul a:before {
-  content: '';
-  margin-right: 0; }
-
 .main-small-navigation {
   background: rgba(255, 255, 255, 0.95);
-  position: relative !important;
   width: 100%; }
 
 .main-small-navigation .menu-primary-container > ul {
@@ -255,11 +164,6 @@ input[type='submit']:hover {
 .main-small-navigation ul {
   text-align: left;
   padding: 0 1rem 1rem; }
-
-.main-small-navigation a {
-  border-bottom: 1px solid #e3d6ca;
-  display: block;
-  padding: .75rem 0; }
 
 #after-header-widgets {
   margin: 1.6875rem auto;
@@ -1079,11 +983,6 @@ h1, h2, h3, h4, h5, h6, .entry-title, .entry-title + .entry-meta, .entry-content
   display: inline-block;
   margin: 0 auto; }
 
-.site-description {
-  display: block !important;
-  color: #fff;
-  font-weight: 300 !important; }
-
 .entry-content, .entry-summary {
   line-height: 1.4; }
 
@@ -1324,12 +1223,6 @@ input[type='submit']:hover {
   max-width: 62rem;
   padding: 0 1rem; }
 
-.main-navigation ul li.current-menu-item > a,
-.main-navigation ul li.current_page_item > a,
-.main-navigation ul li.current_page_ancestor > a,
-.main-navigation ul li.current-menu-parent > a {
-  color: #7e6358; }
-
 .main-navigation ul > li {
   display: inline-block; }
 
@@ -1349,9 +1242,6 @@ input[type='submit']:hover {
   content: '|';
   margin-right: .75rem; }
 
-.main-navigation ul > li a:hover {
-  color: #e3463a; }
-
 .main-navigation ul > li:first-child a:before {
   content: ''; }
 
@@ -1360,32 +1250,6 @@ input[type='submit']:hover {
 
 .main-navigation ul > li.menu-item-has-children > a {
   padding-right: 1rem; }
-
-.main-navigation ul > li.menu-item-has-children > a:after {
-  content: '';
-  position: absolute;
-  top: 50%;
-  right: .2963rem;
-  margin-top: -2px;
-  height: 0;
-  width: 0;
-  /* order of following 3 rules important for fallbacks to work */
-  border: 4px solid transparent;
-  border-top-color: #83bcb3; }
-
-.main-navigation ul > li.menu-item-has-children > a:hover:after {
-  border-top-color: #e97067; }
-
-.main-navigation ul li:hover ul {
-  display: block; }
-
-.main-navigation ul ul {
-  background: rgba(255, 255, 255, 0.9);
-  display: none;
-  padding: .66667rem 1.125rem;
-  position: absolute;
-  top: 4em;
-  width: auto; }
 
 .main-navigation ul ul li {
   display: block; }
@@ -1417,11 +1281,6 @@ input[type='submit']:hover {
 .main-small-navigation ul {
   text-align: left;
   padding: 0 1rem 1rem; }
-
-.main-small-navigation a {
-  border-bottom: 1px solid #e3d6ca;
-  display: block;
-  padding: .75rem 0; }
 
 #after-header-widgets {
   margin: 1.6875rem auto;
@@ -2231,6 +2090,132 @@ article.post, article.page {
   border-radius: 4px;
   -webkit-border-radius: 4px;
   box-shadow: none; }
+
+body {
+  font-family: "Poppins", sans-serif; }
+
+.site-header hgroup {
+  position: relative;
+  z-index: 1;
+  padding: 150px 0 50px; }
+
+.site-title {
+  background-image: url("https://2017.bucharest.wordcamp.org/files/2017/06/wcrobuc_logo.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  max-width: 100%; }
+
+.site-header {
+  background: url("https://2017.bucharest.wordcamp.org/files/2017/06/header_cp.jpg");
+  background-position: top center;
+  background-repeat: no-repeat;
+  background-size: cover; }
+  .site-header:after {
+    content: "";
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 0; }
+
+.site-description {
+  display: block;
+  color: #fff;
+  margin-top: 30px;
+  font-size: 26px;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold; }
+
+.main-navigation {
+  z-index: 10;
+  text-align: center;
+  top: 0;
+  bottom: inherit; }
+  .main-navigation ul {
+    text-align: center; }
+    .main-navigation ul > li {
+      -webkit-transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
+      transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
+      float: none;
+      font-family: "Poppins", sans-serif;
+      margin-right: 35px; }
+      .main-navigation ul > li:last-child {
+        margin-right: 0; }
+      .main-navigation ul > li.menu-item-has-children > a:after {
+        content: "\f347";
+        font-family: "Dashicons";
+        top: 1px;
+        left: 5px;
+        position: relative;
+        font-size: 12px; }
+      .main-navigation ul > li a {
+        color: #000;
+        font-size: 18px;
+        padding: 30px 0;
+        text-transform: uppercase; }
+        .main-navigation ul > li a:before {
+          content: none; }
+      .main-navigation ul > li:hover {
+        box-shadow: 0 -3px #fd3a13 inset; }
+        .main-navigation ul > li:hover li {
+          -webkit-transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1);
+          transition: all 300ms cubic-bezier(0.34, 1.61, 0.7, 1); }
+    .main-navigation ul ul {
+      text-align: left;
+      padding: 0;
+      top: 100%;
+      background-color: #000000;
+      box-shadow: none; }
+      .main-navigation ul ul li {
+        padding: 0; }
+        .main-navigation ul ul li:hover {
+          box-shadow: none; }
+        .main-navigation ul ul li a {
+          padding: 10px 20px;
+          text-transform: none;
+          color: #fff; }
+      .main-navigation ul ul li a:hover {
+        opacity: .67; }
+
+.main-small-navigation {
+  z-index: 10;
+  top: 0; }
+  .main-small-navigation .menu-toggle {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase; }
+  .main-small-navigation ul {
+    padding: 0 0 0 10px;
+    border-left: 1px solid #dadada; }
+  .main-small-navigation ul > li {
+    font-weight: bold;
+    text-transform: uppercase; }
+    .main-small-navigation ul > li a {
+      color: #000;
+      padding: 10px 0;
+      display: block; }
+
+.site-info .site-info-network {
+  z-index: 20; }
+
+@media (max-width: 768px) {
+  .site-description {
+    font-size: 18px;
+    margin: 0; }
+
+  .site-title {
+    height: 350px !important; } }
+@media (max-width: 617px) {
+  .site-header hgroup {
+    padding: 30px 0; }
+
+  .site-description {
+    padding: 0 50px; } }
+.site-info-network {
+  display: none; }
 
 body {
   background: url("https://2016.bucharest.wordcamp.org/files/2016/06/vampir_fundal.png") no-repeat right 300px #F0FCFF; }

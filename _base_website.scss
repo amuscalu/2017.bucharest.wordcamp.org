@@ -185,118 +185,8 @@ input[type='submit']:hover {
 	display: block;
 }
 
-.main-navigation {
-	background: #fff;
-	bottom: -4.375rem;
-	font-family: "Roboto", sans-serif;
-	left: 0;
-	position: absolute;
-	text-align: left;
-	width: 100%;
-}
-
-.main-navigation ul {
-	margin: 0 auto;
-	max-width: 62rem;
-	padding: 0 1rem;
-}
-
-.main-navigation ul li.current-menu-item>a,.main-navigation ul li.current_page_item>a,.main-navigation ul li.current_page_ancestor>a,.main-navigation ul li.current-menu-parent>a {
-	color: #7e6358;
-}
-
-.main-navigation ul>li {
-	display: inline-block;
-}
-
-.main-navigation ul>li a {
-	color: #364652 !important;
-	display: block;
-	padding: 1.6875rem .66667rem 1.6875rem 0;
-	text-decoration: none;
-	text-transform: none !important;
-	-moz-transition: color 300ms;
-	-o-transition: color 300ms;
-	-webkit-transition: color 300ms;
-	transition: color 300ms;
-}
-
-.main-navigation ul>li a:before {
-	color: #364652 !important;
-	content: '|';
-	margin-right: .75rem;
-}
-
-.main-navigation ul>li.current-menu-item a,.main-navigation ul>li a:hover {
-	color: #2e99c9 !important;
-}
-
-.main-navigation ul>li.nav-register-now a {
-	color: #fff !important;
-}
-
-.main-navigation ul>li.nav-register-now a:before {
-	content: '' !important;
-}
-
-.main-navigation ul>li:first-child a:before {
-	content: "";
-}
-
-.main-navigation ul>li.menu-item-has-children {
-	position: relative;
-}
-
-.main-navigation ul>li.menu-item-has-children>a {
-	padding-right: 1rem;
-}
-
-.main-navigation ul>li.menu-item-has-children>a:after {
-	content: '';
-	position: absolute;
-	top: 50%;
-	right: .2963rem;
-	margin-top: -2px;
-	height: 0;
-	width: 0;
-	border: 4px solid transparent;
-	border-top-color: #45a87c !important;
-}
-
-.main-navigation ul>li.menu-item-has-children>a:hover:after {
-	border-top-color: #e97067;
-}
-
-.main-navigation ul li:hover ul {
-	display: block;
-}
-
-.main-navigation ul ul {
-	background: rgba(255,255,255,0.9);
-	display: none;
-	padding: .66667rem 1.125rem;
-	position: absolute;
-	top: 4em;
-	width: auto;
-}
-
-.main-navigation ul ul li {
-	display: block;
-}
-
-.main-navigation ul ul a {
-	padding: .75rem 0;
-	white-space: nowrap;
-}
-
-.main-navigation ul ul a:before {
-	content: '';
-	margin-right: 0;
-}
-
 .main-small-navigation {
 	background: rgba(255,255,255,0.95);
-	position: relative !important;
 	width: 100%;
 }
 
@@ -317,12 +207,6 @@ input[type='submit']:hover {
 .main-small-navigation ul {
 	text-align: left;
 	padding: 0 1rem 1rem;
-}
-
-.main-small-navigation a {
-	border-bottom: 1px solid #e3d6ca;
-	display: block;
-	padding: .75rem 0;
 }
 
 #after-header-widgets {
@@ -1345,12 +1229,6 @@ h1,h2,h3,h4,h5,h6,.entry-title,.entry-title+.entry-meta,.entry-content>p:first-o
 	margin: 0 auto;
 }
 
-.site-description {
-	display: block !important;
-	color: #fff;
-	font-weight: 300 !important;
-}
-
 .entry-content,.entry-summary {
 	line-height: 1.4;
 }
@@ -1654,13 +1532,6 @@ input[type='submit']:hover {
 	padding: 0 1rem;
 }
 
-.main-navigation ul li.current-menu-item > a,
-.main-navigation ul li.current_page_item > a,
-.main-navigation ul li.current_page_ancestor > a,
-.main-navigation ul li.current-menu-parent > a {
-	color: #7e6358;
-}
-
 .main-navigation ul > li {
 	display: inline-block;
 }
@@ -1683,10 +1554,6 @@ input[type='submit']:hover {
 	margin-right: .75rem;
 }
 
-.main-navigation ul > li a:hover {
-	color: #e3463a;
-}
-
 .main-navigation ul > li:first-child a:before {
 	content: '';
 }
@@ -1697,36 +1564,6 @@ input[type='submit']:hover {
 
 .main-navigation ul > li.menu-item-has-children > a {
 	padding-right: 1rem;
-}
-
-.main-navigation ul > li.menu-item-has-children > a:after {
-	content: '';
-	position: absolute;
-	top: 50%;
-	right: .2963rem;
-	margin-top: -2px;
-	height: 0;
-	width: 0;
-/* order of following 3 rules important for fallbacks to work */
-	border: 4px solid transparent;
-	border-top-color: #83bcb3;
-}
-
-.main-navigation ul > li.menu-item-has-children > a:hover:after {
-	border-top-color: #e97067;
-}
-
-.main-navigation ul li:hover ul {
-	display: block;
-}
-
-.main-navigation ul ul {
-	background: rgba(255,255,255,0.9);
-	display: none;
-	padding: .66667rem 1.125rem;
-	position: absolute;
-	top: 4em;
-	width: auto;
 }
 
 .main-navigation ul ul li {
@@ -1765,12 +1602,6 @@ input[type='submit']:hover {
 .main-small-navigation ul {
 	text-align: left;
 	padding: 0 1rem 1rem;
-}
-
-.main-small-navigation a {
-	border-bottom: 1px solid #e3d6ca;
-	display: block;
-	padding: .75rem 0;
 }
 
 #after-header-widgets {
