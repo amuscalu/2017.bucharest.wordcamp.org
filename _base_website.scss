@@ -1521,7 +1521,7 @@ input[type='submit']:hover {
 	bottom: -4.375rem;
 	font-family: "Roboto", sans-serif;
 	left: 0;
-	position: absolute;
+	position: fixed;
 	text-align: left;
 	width: 100%;
 }
@@ -1582,7 +1582,7 @@ input[type='submit']:hover {
 
 .main-small-navigation {
 	background: rgba(255,255,255,0.95);
-	position: absolute;
+	position: fixed;
 	width: 100%;
 }
 
