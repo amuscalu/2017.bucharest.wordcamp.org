@@ -118,8 +118,30 @@ article.page {
 		margin-right: 0;
 		width: 100%;
 
+
+	}
+
+	#central1 {
+		background-image: url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image1.jpg');;
+
 		&:hover {
-			background-image: linear-gradient(rgba(17,17,17,0.5),rgba(17,17,17,0.8));
+			background-image: linear-gradient(rgba(17,17,17,0.5),rgba(17,17,17,0.8)), url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image1.jpg');
+		}
+	}
+
+	#central2 {
+		background-image: url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image2.jpg');
+
+		&:hover {
+			background-image: linear-gradient(rgba(17,17,17,0.5),rgba(17,17,17,0.8)), url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image2.jpg');
+		}
+	}
+
+	#central3 {
+		background-image: url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image3.jpg');
+
+		&:hover {
+			background-image: linear-gradient(rgba(17,17,17,0.5),rgba(17,17,17,0.8)), url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image3.jpg');;
 		}
 	}
 
