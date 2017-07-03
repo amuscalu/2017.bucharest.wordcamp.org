@@ -120,10 +120,17 @@ article.page {
 	#central2,
 	#central3 {
 		margin-right: 0;
-		width: 33.333%;
+		width: 100%;
 	}
 
 	@media screen and(min-width: 700px) {
+		#central1,
+		#central2,
+		#central3 {
+			margin-right: 0;
+			width: 33.333%;
+		}
+
 		.widget {
 			margin-bottom: 0;
 		}

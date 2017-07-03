@@ -2440,8 +2440,13 @@ article.page {
   #after-header-widgets.widget-area #central2,
   #after-header-widgets.widget-area #central3 {
     margin-right: 0;
-    width: 33.333%; }
+    width: 100%; }
   @media screen and (min-width: 700px) {
+    #after-header-widgets.widget-area #central1,
+    #after-header-widgets.widget-area #central2,
+    #after-header-widgets.widget-area #central3 {
+      margin-right: 0;
+      width: 33.333%; }
     #after-header-widgets.widget-area .widget {
       margin-bottom: 0; } }
 
