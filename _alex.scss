@@ -248,7 +248,8 @@ article.page {
 	.widget {
 		background-color: #fff !important;
 		margin: 0 0 30px !important;
-		padding: 30px !important;
+		padding: 0 !important;
+		font-size: 15px;
 
 		.widget-title {
 			border-bottom: 10px solid #dddddd;
@@ -263,6 +264,28 @@ article.page {
 
 			a {
 				color: #364652 !important;
+			}
+		}
+
+		.textwidget {
+			padding: 30px;
+		}
+
+		&.jetpack_subscription_widget {
+			background: none !important;
+
+			.widget-title {
+				margin-bottom: 0px
+			}
+
+			input[type='email'] {
+				margin-bottom: 5px;
+			}
+		}
+
+		&.widget_facebook_likebox {
+			.fb_iframe_widget {
+				padding: 30px;
 			}
 		}
 	}

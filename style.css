@@ -2497,7 +2497,8 @@ article.page {
 #primary-sidebar .widget {
   background-color: #fff !important;
   margin: 0 0 30px !important;
-  padding: 30px !important; }
+  padding: 0 !important;
+  font-size: 15px; }
   #primary-sidebar .widget .widget-title {
     border-bottom: 10px solid #dddddd;
     font-size: 17px;
@@ -2510,3 +2511,13 @@ article.page {
     text-transform: none; }
     #primary-sidebar .widget .widget-title a {
       color: #364652 !important; }
+  #primary-sidebar .widget .textwidget {
+    padding: 30px; }
+  #primary-sidebar .widget.jetpack_subscription_widget {
+    background: none !important; }
+    #primary-sidebar .widget.jetpack_subscription_widget .widget-title {
+      margin-bottom: 0px; }
+    #primary-sidebar .widget.jetpack_subscription_widget input[type='email'] {
+      margin-bottom: 5px; }
+  #primary-sidebar .widget.widget_facebook_likebox .fb_iframe_widget {
+    padding: 30px; }
