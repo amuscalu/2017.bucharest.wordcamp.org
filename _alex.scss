@@ -2,6 +2,15 @@ body {
 	background-color: #ebebeb;
 }
 
+.site-header {
+	background: url('https://2017.bucharest.wordcamp.org/files/2017/07/v1_2.jpg');
+	margin-bottom: 0;
+	min-height: 320px;
+
+	.site-title {
+		display: none;
+	}
+}
 
 article.post,
 article.page {
@@ -65,7 +74,6 @@ article.page {
 	}
 }
 
-
 .site-footer {
 	background-color: #000000;
 	color: #ffffff;
@@ -85,10 +93,6 @@ article.page {
 			text-transform: uppercase;
 		}
 	}
-}
-
-.site-header {
-	margin-bottom: 0;
 }
 
 #after-header-widgets.widget-area {
