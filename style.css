@@ -2362,6 +2362,9 @@ body {
 .entry-content h6, .comment-content h6 {
   font-size: 17px; }
 
+.entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .comment-content h1, .comment-content h2, .comment-content h3, .comment-content h4, .comment-content h5, .comment-content h6 {
+  margin: 15px 0 30px; }
+
 .site-header {
   background-image: url("https://2017.bucharest.wordcamp.org/files/2017/07/v1_2.jpg");
   background-position: top center;
@@ -2376,19 +2379,31 @@ body {
 
 article.post,
 article.page {
+  border-radius: 0;
   position: relative;
-  margin-bottom: 100px; }
+  margin-bottom: 95px; }
   article.post .entry-header .entry-title,
   article.page .entry-header .entry-title {
     color: #000;
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 22px; }
-  article.post .entry-header .entry-meta a,
-  article.post .entry-header .entry-meta .author,
-  article.page .entry-header .entry-meta a,
-  article.page .entry-header .entry-meta .author {
-    color: #fd3a13 !important; }
+  article.post .entry-header .entry-meta,
+  article.page .entry-header .entry-meta {
+    color: #939393;
+    font-family: 'Poppins' , serif !important;
+    font-size: 15px !important;
+    font-weight: 300 !important;
+    text-transform: uppercase; }
+    article.post .entry-header .entry-meta a,
+    article.post .entry-header .entry-meta .author,
+    article.page .entry-header .entry-meta a,
+    article.page .entry-header .entry-meta .author {
+      color: #fd3a13 !important; }
+  article.post .entry-header .entry-title + .entry-meta,
+  article.page .entry-header .entry-title + .entry-meta {
+    font-family: 'Poppins' , serif !important;
+    font-size: 15px !important; }
   article.post .entry-content,
   article.page .entry-content {
     color: #6f6f6f;
@@ -2416,8 +2431,8 @@ article.page {
         color: #364652 !important; }
     article.post .entry-content .sharedaddy .sd-title,
     article.page .entry-content .sharedaddy .sd-title {
-      font-size: 15px;
-      font-weight: 400;
+      font-size: 15px !important;
+      font-weight: 300 !important;
       text-transform: uppercase; }
   @media screen and (min-width: 960px) {
     article.post,
