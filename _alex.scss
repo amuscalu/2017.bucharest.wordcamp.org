@@ -243,3 +243,27 @@ article.page {
 		}
 	}
 }
+
+#primary-sidebar {
+	.widget {
+		background-color: #fff !important;
+		margin: 0 0 30px !important;
+		padding: 30px !important;
+
+		.widget-title {
+			border-bottom: 10px solid #dddddd;
+			font-size: 17px;
+			color: #364652 !important;
+			font-weight: bold;
+			padding: 10px 30px;
+			line-height: normal;
+			background-color: #fff;
+			border-radius: 0;
+			text-transform: none;
+
+			a {
+				color: #364652 !important;
+			}
+		}
+	}
+}
