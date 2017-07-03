@@ -247,9 +247,11 @@ article.page {
 #primary-sidebar {
 	.widget {
 		background-color: #fff !important;
+		color: #000;
 		margin: 0 0 30px !important;
 		padding: 0 !important;
 		font-size: 15px;
+		font-weight: 300;
 
 		.widget-title {
 			border-bottom: 10px solid #dddddd;
