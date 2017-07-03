@@ -2,6 +2,30 @@ body {
 	background-color: #ebebeb;
 }
 
+h1 {
+	font-size: 22px;
+}
+
+h2 {
+	font-size: 21px;
+}
+
+h3 {
+	font-size: 20px;
+}
+
+h4 {
+	font-size: 20px;
+}
+
+h5 {
+	font-size: 18px;
+}
+
+h6 {
+	font-size: 17px;
+}
+
 .site-header {
 	background-image: url('https://2017.bucharest.wordcamp.org/files/2017/07/v1_2.jpg');
 	background-position: top center;
@@ -26,15 +50,16 @@ article.page {
 
 	.entry-header {
 		.entry-title {
+			color: #000;
 			font-size: 22px;
 			font-weight: bold;
+			margin-bottom: 22px;
 		}
 
 		.entry-meta {
 			a,
 			.author {
 				color: #fd3a13 !important;
-
 			}
 		}
 	}
@@ -104,8 +129,8 @@ article.page {
 
 #after-header-widgets.widget-area {
 	display: none;
-	margin-bottom: 43px;
-	margin-top: 35px;
+	margin-bottom: 30px;
+	margin-top: 30px;
 	max-width: 1280px;
 
 	.home & {
@@ -118,14 +143,23 @@ article.page {
 		margin-right: 0;
 		width: 100%;
 
+		.c-widget-title {
+			font-size: 22px;
+		}
 
+		.c-text-widget {
+			a {
+				font-size: 14px;
+				font-weight: 300;
+			}
+		}
 	}
 
 	#central1 {
 		background-image: url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image1.jpg');;
 
 		&:hover {
-			background-image: linear-gradient(rgba(17,17,17,0.5),rgba(17,17,17,0.8)), url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image1.jpg');
+			background-image: linear-gradient(rgba(17,17,17,0.5),rgba(17,17,17,0.7)), url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image1.jpg');
 		}
 	}
 
@@ -133,7 +167,7 @@ article.page {
 		background-image: url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image2.jpg');
 
 		&:hover {
-			background-image: linear-gradient(rgba(17,17,17,0.5),rgba(17,17,17,0.8)), url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image2.jpg');
+			background-image: linear-gradient(rgba(17,17,17,0.5),rgba(17,17,17,0.7)), url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image2.jpg');
 		}
 	}
 
@@ -141,7 +175,7 @@ article.page {
 		background-image: url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image3.jpg');
 
 		&:hover {
-			background-image: linear-gradient(rgba(17,17,17,0.5),rgba(17,17,17,0.8)), url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image3.jpg');;
+			background-image: linear-gradient(rgba(17,17,17,0.5),rgba(17,17,17,0.7)), url('https://2017.bucharest.wordcamp.org/files/2017/06/wc-image3.jpg');;
 		}
 	}
 
