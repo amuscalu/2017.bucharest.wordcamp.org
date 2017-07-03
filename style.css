@@ -2233,12 +2233,6 @@ Click the help icon above to learn more.
 h1, h2, h3, h4, h5, h6, p, .entry-title {
   font-family: 'Poppins' , serif !important; }
 
-/* Sidebar */
-.sidebar-widget {
-  background-color: #fff;
-  padding: 10px;
-  border-radius: 3px; }
-
 .sidebar-viewonmap {
   background-color: #ff3300;
   color: #fff;
@@ -2251,19 +2245,6 @@ h1, h2, h3, h4, h5, h6, p, .entry-title {
 .sidebar-viewonmap:hover {
   background-color: #ff3300;
   color: #fff !important; }
-
-.widget .widget-title {
-  border-bottom: 0;
-  font-size: 100%;
-  color: #364652 !important;
-  font-weight: bold;
-  padding: 10px;
-  background-color: #fff;
-  border-radius: 3px;
-  text-transform: none; }
-
-.widget .widget-title a {
-  color: #364652 !important; }
 
 #primary-sidebar input[type='submit'] {
   background-color: #ff3300 !important;
@@ -2512,3 +2493,20 @@ article.page {
     width: 25%; } }
 .main-navigation ul > li a:before {
   margin: 0; }
+
+#primary-sidebar .widget {
+  background-color: #fff !important;
+  margin: 0 0 30px !important;
+  padding: 30px !important; }
+  #primary-sidebar .widget .widget-title {
+    border-bottom: 10px solid #dddddd;
+    font-size: 17px;
+    color: #364652 !important;
+    font-weight: bold;
+    padding: 10px 30px;
+    line-height: normal;
+    background-color: #fff;
+    border-radius: 0;
+    text-transform: none; }
+    #primary-sidebar .widget .widget-title a {
+      color: #364652 !important; }
