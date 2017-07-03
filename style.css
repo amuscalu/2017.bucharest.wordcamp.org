@@ -2283,7 +2283,7 @@ h1, h2, h3, h4, h5, h6, p, .entry-title {
 
 #central1, #central2, #central3 {
   position: relative;
-  height: 240px;
+  height: 254px;
   width: 33%;
   overflow: hidden;
   background-size: 100%;
@@ -2350,11 +2350,6 @@ h1, h2, h3, h4, h5, h6, p, .entry-title {
 .wcorg-organizer .avatar {
   border-radius: 0 !important; }
 
-/*
-You can add your own CSS here.
-
-Click the help icon above to learn more.
-*/
 body {
   background-color: #ebebeb; }
 
@@ -2401,6 +2396,10 @@ article.page {
       font-size: 15px;
       font-weight: 400;
       text-transform: uppercase; }
+  @media screen and (min-width: 960px) {
+    article.post,
+    article.page {
+      padding: 30px !important; } }
 
 .site-footer {
   background-color: #000000;
@@ -2415,3 +2414,38 @@ article.page {
     .site-footer .site-info .site-info-generator {
       padding: 0 !important;
       text-transform: uppercase; }
+
+.site-header {
+  margin-bottom: 0; }
+
+#after-header-widgets.widget-area {
+  display: none;
+  margin-bottom: 30px;
+  margin-top: 30px;
+  max-width: 1280px; }
+  .home #after-header-widgets.widget-area {
+    display: block; }
+  #after-header-widgets.widget-area #central1,
+  #after-header-widgets.widget-area #central2,
+  #after-header-widgets.widget-area #central3 {
+    margin-right: 0;
+    width: 33.333%; }
+  @media screen and (min-width: 700px) {
+    #after-header-widgets.widget-area .widget {
+      margin-bottom: 0; } }
+
+#main {
+  margin-top: 30px;
+  max-width: 1280px; }
+  .home #main {
+    margin-top: 0; }
+
+#secondary {
+  font-weight: 300; }
+
+@media screen and (min-width: 576px) {
+  #primary {
+    width: 75%; }
+
+  #secondary {
+    width: 25%; } }
