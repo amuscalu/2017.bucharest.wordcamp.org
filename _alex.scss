@@ -3,11 +3,22 @@ body {
 }
 
 .site-header {
-	background: url('https://2017.bucharest.wordcamp.org/files/2017/07/v1_2.jpg');
+
 	margin-bottom: 0;
 	min-height: 320px;
 
 	.site-title {
+		display: none;
+	}
+}
+
+.site-header {
+	background-image: url('https://2017.bucharest.wordcamp.org/files/2017/07/v1_2.jpg');
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+
+	&:after {
 		display: none;
 	}
 }
