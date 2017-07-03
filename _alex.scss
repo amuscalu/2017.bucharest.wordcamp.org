@@ -159,3 +159,15 @@ article.page {
 		width: 25%;
 	}
 }
+
+.main-navigation  {
+	ul {
+		& > li {
+			a {
+				&:before {
+					margin: 0;
+				}
+			}
+		}
+	}
+}
