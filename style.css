@@ -2289,15 +2289,6 @@ h1, h2, h3, h4, h5, h6, p, .entry-title {
   background-size: 100%;
   margin-right: -4px; }
 
-#central1 {
-  background-image: url("https://2017.bucharest.wordcamp.org/files/2017/06/wc-image1.jpg"); }
-
-#central2 {
-  background-image: url("https://2017.bucharest.wordcamp.org/files/2017/06/wc-image2.jpg"); }
-
-#central3 {
-  background-image: url("https://2017.bucharest.wordcamp.org/files/2017/06/wc-image3.jpg"); }
-
 .c-widget-title {
   font-size: 24px;
   color: #ffffff;
@@ -2439,10 +2430,18 @@ article.page {
   #after-header-widgets.widget-area #central3 {
     margin-right: 0;
     width: 100%; }
-    #after-header-widgets.widget-area #central1:hover,
-    #after-header-widgets.widget-area #central2:hover,
+  #after-header-widgets.widget-area #central1 {
+    background-image: url("https://2017.bucharest.wordcamp.org/files/2017/06/wc-image1.jpg"); }
+    #after-header-widgets.widget-area #central1:hover {
+      background-image: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.8)), url("https://2017.bucharest.wordcamp.org/files/2017/06/wc-image1.jpg"); }
+  #after-header-widgets.widget-area #central2 {
+    background-image: url("https://2017.bucharest.wordcamp.org/files/2017/06/wc-image2.jpg"); }
+    #after-header-widgets.widget-area #central2:hover {
+      background-image: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.8)), url("https://2017.bucharest.wordcamp.org/files/2017/06/wc-image2.jpg"); }
+  #after-header-widgets.widget-area #central3 {
+    background-image: url("https://2017.bucharest.wordcamp.org/files/2017/06/wc-image3.jpg"); }
     #after-header-widgets.widget-area #central3:hover {
-      background-image: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.8)); }
+      background-image: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.8)), url("https://2017.bucharest.wordcamp.org/files/2017/06/wc-image3.jpg"); }
   @media screen and (min-width: 700px) {
     #after-header-widgets.widget-area #central1,
     #after-header-widgets.widget-area #central2,
