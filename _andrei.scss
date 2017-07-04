@@ -1,6 +1,9 @@
 body {
   font-family: "Poppins", sans-serif;
 }
+.admin-bar .main-navigation {
+  margin-top: 32px;
+}
 .site-header hgroup {
   position: relative;
   z-index: 1;
@@ -15,6 +18,7 @@ body {
 }
 
 .site-header {
+  margin-top: 65px;
   background: url('https://2017.bucharest.wordcamp.org/files/2017/06/header_cp.jpg');
   background-position: top center;
   background-repeat: no-repeat;
@@ -144,6 +148,13 @@ body {
   z-index: 20;
 }
 
+.wcorg-organizer {
+  display: inline-block;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 27%;
+}
+
 @media (max-width: 768px) {
   .site-description {
     font-size: 18px;
@@ -163,6 +174,13 @@ body {
   }
 }
 
+@media screen and (max-width: 720px) {
+  .site-header {
+    margin-top: 45px;
+  }
+}
+
 .site-info-network {
   display: none;
 }
+

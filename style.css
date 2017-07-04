@@ -2094,6 +2094,9 @@ article.post, article.page {
 body {
   font-family: "Poppins", sans-serif; }
 
+.admin-bar .main-navigation {
+  margin-top: 32px; }
+
 .site-header hgroup {
   position: relative;
   z-index: 1;
@@ -2107,6 +2110,7 @@ body {
   max-width: 375px; }
 
 .site-header {
+  margin-top: 65px;
   background: url("https://2017.bucharest.wordcamp.org/files/2017/06/header_cp.jpg");
   background-position: top center;
   background-repeat: no-repeat;
@@ -2208,6 +2212,12 @@ body {
 .site-info .site-info-network {
   z-index: 20; }
 
+.wcorg-organizer {
+  display: inline-block;
+  margin-left: 24px;
+  margin-right: 24px;
+  width: 27%; }
+
 @media (max-width: 768px) {
   .site-description {
     font-size: 18px;
@@ -2221,6 +2231,9 @@ body {
 
   .site-description {
     padding: 0 50px; } }
+@media screen and (max-width: 720px) {
+  .site-header {
+    margin-top: 45px; } }
 .site-info-network {
   display: none; }
 
