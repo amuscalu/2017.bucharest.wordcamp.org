@@ -2092,7 +2092,8 @@ article.post, article.page {
   box-shadow: none; }
 
 body {
-  font-family: "Poppins", sans-serif; }
+  font-family: "Poppins", sans-serif;
+  overflow-x: hidden; }
   body.page .comments-area {
     display: none; }
 
