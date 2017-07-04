@@ -1,5 +1,8 @@
 body {
   font-family: "Poppins", sans-serif;
+  &.page .comments-area {
+    display: none;
+  }
 }
 .admin-bar .main-navigation {
   margin-top: 32px;
@@ -183,4 +186,5 @@ body {
 .site-info-network {
   display: none;
 }
+
 

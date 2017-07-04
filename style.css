@@ -2093,6 +2093,8 @@ article.post, article.page {
 
 body {
   font-family: "Poppins", sans-serif; }
+  body.page .comments-area {
+    display: none; }
 
 .admin-bar .main-navigation {
   margin-top: 32px; }
