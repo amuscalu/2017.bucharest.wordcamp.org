@@ -2444,6 +2444,8 @@ article.page {
   #after-header-widgets.widget-area #central1,
   #after-header-widgets.widget-area #central2,
   #after-header-widgets.widget-area #central3 {
+    background-size: cover;
+    transition: all .3s ease;
     margin-right: 0;
     width: 100%; }
     #after-header-widgets.widget-area #central1 .c-widget-title,
@@ -2458,15 +2460,15 @@ article.page {
   #after-header-widgets.widget-area #central1 {
     background-image: url("https://2017.bucharest.wordcamp.org/files/2017/07/SPONSORS.jpg"); }
     #after-header-widgets.widget-area #central1:hover {
-      background-image: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.7)), url("https://2017.bucharest.wordcamp.org/files/2017/06/wc-image1.jpg"); }
+      background-image: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.7)), url("https://2017.bucharest.wordcamp.org/files/2017/07/SPONSORS.jpg"); }
   #after-header-widgets.widget-area #central2 {
     background-image: url("https://2017.bucharest.wordcamp.org/files/2017/07/SPEAKERS.jpg"); }
     #after-header-widgets.widget-area #central2:hover {
-      background-image: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.7)), url("https://2017.bucharest.wordcamp.org/files/2017/06/wc-image2.jpg"); }
+      background-image: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.7)), url("https://2017.bucharest.wordcamp.org/files/2017/07/SPEAKERS.jpg"); }
   #after-header-widgets.widget-area #central3 {
     background-image: url("https://2017.bucharest.wordcamp.org/files/2017/07/ATTENDEES.jpg"); }
     #after-header-widgets.widget-area #central3:hover {
-      background-image: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.7)), url("https://2017.bucharest.wordcamp.org/files/2017/06/wc-image3.jpg"); }
+      background-image: linear-gradient(rgba(17, 17, 17, 0.5), rgba(17, 17, 17, 0.7)), url("https://2017.bucharest.wordcamp.org/files/2017/07/ATTENDEES.jpg"); }
   @media screen and (min-width: 700px) {
     #after-header-widgets.widget-area #central1,
     #after-header-widgets.widget-area #central2,
