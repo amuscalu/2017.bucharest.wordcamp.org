@@ -294,3 +294,8 @@ article.page {
 		}
 	}
 }
+
+img.social-ico:hover {
+    -webkit-filter: grayscale(75%);
+    filter: grayscale(75%);
+}

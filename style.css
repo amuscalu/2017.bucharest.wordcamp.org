@@ -2541,3 +2541,7 @@ article.page {
       margin-bottom: 5px; }
   #primary-sidebar .widget.widget_facebook_likebox .fb_iframe_widget {
     padding: 30px; }
+
+img.social-ico:hover {
+  -webkit-filter: grayscale(75%);
+  filter: grayscale(75%); }
