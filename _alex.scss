@@ -11,7 +11,9 @@ body {
 }
 
 .entry-content h3, .comment-content h3 {
+	color: #000;
 	font-size: 20px;
+	text-transform: uppercase;
 }
 
 .entry-content h4, .comment-content h4 {
@@ -204,6 +206,7 @@ article.page {
 		transition: all .3s ease;
 		margin-right: 0;
 		width: 100%;
+		font-weight: 300;
 
 		.c-widget-title {
 			font-size: 22px;
@@ -281,6 +284,11 @@ article.page {
 .main-navigation  {
 	ul {
 		& > li {
+			&.current-menu-item,
+			&.current_page_item {
+				box-shadow:	0 -3px #fd3a13 inset;
+			}
+
 			a {
 				&:before {
 					margin: 0;
@@ -337,6 +345,11 @@ article.page {
 			}
 		}
 	}
+
+	input[type='submit'] {
+		font-size: 15px;
+		font-weight: 300;
+	}
 }
 
 .site-navigation,
@@ -362,6 +375,8 @@ article.page {
 	}
 
 	#commentform {
+		max-width: 100%;
+
 		label {
 			color: #000;
 		}
@@ -371,6 +386,8 @@ article.page {
 input[type='submit'] {
 	transition: all .3s ease;
 	background-color: #fd3a13 !important;
+	border-radius: 0 !important;
+	color: #fff;
 	font-size: 15px;
 	font-weight: 300;
 

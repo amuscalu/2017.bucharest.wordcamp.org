@@ -2253,10 +2253,11 @@ h1, h2, h3, h4, h5, h6, p, .entry-title {
   background-color: #ff3300;
   color: #fff;
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 0;
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: center;
+  text-transform: uppercase; }
 
 .sidebar-viewonmap:hover {
   background-color: #ff3300;
@@ -2348,7 +2349,9 @@ body {
   font-size: 21px; }
 
 .entry-content h3, .comment-content h3 {
-  font-size: 20px; }
+  color: #000;
+  font-size: 20px;
+  text-transform: uppercase; }
 
 .entry-content h4, .comment-content h4 {
   font-size: 20px; }
@@ -2497,7 +2500,8 @@ article.page {
     background-size: cover;
     transition: all .3s ease;
     margin-right: 0;
-    width: 100%; }
+    width: 100%;
+    font-weight: 300; }
     #after-header-widgets.widget-area #central1 .c-widget-title,
     #after-header-widgets.widget-area #central2 .c-widget-title,
     #after-header-widgets.widget-area #central3 .c-widget-title {
@@ -2543,6 +2547,8 @@ article.page {
 
   #secondary {
     width: 25%; } }
+.main-navigation ul > li.current-menu-item, .main-navigation ul > li.current_page_item {
+  box-shadow: 0 -3px #fd3a13 inset; }
 .main-navigation ul > li a:before {
   margin: 0; }
 
@@ -2575,6 +2581,9 @@ article.page {
       margin-bottom: 5px; }
   #primary-sidebar .widget.widget_facebook_likebox .fb_iframe_widget {
     padding: 30px; }
+#primary-sidebar input[type='submit'] {
+  font-size: 15px;
+  font-weight: 300; }
 
 .site-navigation .nav-previous a,
 .site-navigation .nav-next a,
@@ -2591,12 +2600,16 @@ article.page {
     color: #000;
     font-size: 22px;
     font-weight: bold; }
-  .comments-area #commentform label {
-    color: #000; }
+  .comments-area #commentform {
+    max-width: 100%; }
+    .comments-area #commentform label {
+      color: #000; }
 
 input[type='submit'] {
   transition: all .3s ease;
   background-color: #fd3a13 !important;
+  border-radius: 0 !important;
+  color: #fff;
   font-size: 15px;
   font-weight: 300; }
   input[type='submit']:hover {
