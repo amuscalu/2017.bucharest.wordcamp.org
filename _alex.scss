@@ -30,6 +30,10 @@ body {
 	margin: 15px 0 30px;
 }
 
+a {
+	color: #fd3a13;
+}
+
 .site-header {
 	background-image: url('https://2017.bucharest.wordcamp.org/files/2017/07/v1_2.jpg');
 	background-position: top center;
@@ -59,6 +63,12 @@ article.page {
 			font-size: 22px;
 			font-weight: bold;
 			margin-bottom: 22px;
+
+			a {
+				&:hover {
+					color: #fd3a13 !important;
+				}
+			}
 		}
 
 		.entry-meta {
@@ -81,13 +91,26 @@ article.page {
 	}
 
 	.entry-content {
-		color: #6f6f6f;
-		font-size: 17px;
+		color: #3d3d3d;
+		font-size: 15px;
+		font-weight: 300;
+
+		a {
+			color: #fd3a13 !important;
+			font-weight: 300 !important;
+
+			&:hover {
+				color: #e97067 !important;
+			}
+		}
 
 		p {
-			font-size: 17px;
+			font-size: 15px;
+			font-weight: 300;
+
 			&:first-of-type {
-				font-size: 17px;
+				font-size: 15px;
+				font-weight: 300;
 			}
 		}
 
@@ -96,23 +119,44 @@ article.page {
 			bottom: -60px;
 			color: #fd3a13 !important;
 			display: block;
+			font-weight: 300;
 			left: 0px;
 			line-height: 50px;
 			position: absolute;
 			text-align: center;
 			text-transform: uppercase;
+			transition: all .3s ease;
 			width: 100%;
 
 			&:hover {
+				background-color: #ffffff;
 				color: #364652 !important;
 			}
 		}
 
 		.sharedaddy {
+			margin-top: -20px;
+
 			.sd-title {
 				font-size: 15px !important;
 				font-weight: 300 !important;
 				text-transform: uppercase;
+			}
+		}
+	}
+
+	footer.entry-meta {
+		color: #3d3d3d;
+		font-size: 15px;
+		font-weight: 300;
+		border: 0 !important;
+		margin: 0 !important;
+		padding: 5px 0 0 0 !important;
+		text-transform: uppercase;
+
+		.tag-links {
+			&:before {
+				display: none;
 			}
 		}
 	}
@@ -292,6 +336,46 @@ article.page {
 				padding: 30px;
 			}
 		}
+	}
+}
+
+.site-navigation,
+.post-navigation {
+	.nav-previous,
+	.nav-next {
+		a {
+			color: #fd3a13 !important;
+		}
+	}
+}
+
+.comments-area {
+	border-top: 5px solid #fd3a13;
+	font-size: 15px;
+	padding: 30px;
+	font-weight: 300;
+
+	.comment-reply-title {
+		color: #000;
+		font-size: 22px;
+		font-weight: bold;
+	}
+
+	#commentform {
+		label {
+			color: #000;
+		}
+	}
+}
+
+input[type='submit'] {
+	transition: all .3s ease;
+	background-color: #fd3a13 !important;
+	font-size: 15px;
+	font-weight: 300;
+
+	&:hover {
+		background-color: #e97067 !important;
 	}
 }
 

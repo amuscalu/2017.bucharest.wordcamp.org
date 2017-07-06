@@ -2362,6 +2362,9 @@ body {
 .entry-content h1, .entry-content h2, .entry-content h3, .entry-content h4, .entry-content h5, .entry-content h6, .comment-content h1, .comment-content h2, .comment-content h3, .comment-content h4, .comment-content h5, .comment-content h6 {
   margin: 15px 0 30px; }
 
+a {
+  color: #fd3a13; }
+
 .site-header {
   background-image: url("https://2017.bucharest.wordcamp.org/files/2017/07/v1_2.jpg");
   background-position: top center;
@@ -2385,6 +2388,9 @@ article.page {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 22px; }
+    article.post .entry-header .entry-title a:hover,
+    article.page .entry-header .entry-title a:hover {
+      color: #fd3a13 !important; }
   article.post .entry-header .entry-meta,
   article.page .entry-header .entry-meta {
     color: #939393;
@@ -2403,34 +2409,62 @@ article.page {
     font-size: 15px !important; }
   article.post .entry-content,
   article.page .entry-content {
-    color: #6f6f6f;
-    font-size: 17px; }
+    color: #3d3d3d;
+    font-size: 15px;
+    font-weight: 300; }
+    article.post .entry-content a,
+    article.page .entry-content a {
+      color: #fd3a13 !important;
+      font-weight: 300 !important; }
+      article.post .entry-content a:hover,
+      article.page .entry-content a:hover {
+        color: #e97067 !important; }
     article.post .entry-content p,
     article.page .entry-content p {
-      font-size: 17px; }
+      font-size: 15px;
+      font-weight: 300; }
       article.post .entry-content p:first-of-type,
       article.page .entry-content p:first-of-type {
-        font-size: 17px; }
+        font-size: 15px;
+        font-weight: 300; }
     article.post .entry-content a.more-link,
     article.page .entry-content a.more-link {
       background-color: #fcfcfc;
       bottom: -60px;
       color: #fd3a13 !important;
       display: block;
+      font-weight: 300;
       left: 0px;
       line-height: 50px;
       position: absolute;
       text-align: center;
       text-transform: uppercase;
+      transition: all .3s ease;
       width: 100%; }
       article.post .entry-content a.more-link:hover,
       article.page .entry-content a.more-link:hover {
+        background-color: #ffffff;
         color: #364652 !important; }
-    article.post .entry-content .sharedaddy .sd-title,
-    article.page .entry-content .sharedaddy .sd-title {
-      font-size: 15px !important;
-      font-weight: 300 !important;
-      text-transform: uppercase; }
+    article.post .entry-content .sharedaddy,
+    article.page .entry-content .sharedaddy {
+      margin-top: -20px; }
+      article.post .entry-content .sharedaddy .sd-title,
+      article.page .entry-content .sharedaddy .sd-title {
+        font-size: 15px !important;
+        font-weight: 300 !important;
+        text-transform: uppercase; }
+  article.post footer.entry-meta,
+  article.page footer.entry-meta {
+    color: #3d3d3d;
+    font-size: 15px;
+    font-weight: 300;
+    border: 0 !important;
+    margin: 0 !important;
+    padding: 5px 0 0 0 !important;
+    text-transform: uppercase; }
+    article.post footer.entry-meta .tag-links:before,
+    article.page footer.entry-meta .tag-links:before {
+      display: none; }
   @media screen and (min-width: 960px) {
     article.post,
     article.page {
@@ -2541,6 +2575,32 @@ article.page {
       margin-bottom: 5px; }
   #primary-sidebar .widget.widget_facebook_likebox .fb_iframe_widget {
     padding: 30px; }
+
+.site-navigation .nav-previous a,
+.site-navigation .nav-next a,
+.post-navigation .nav-previous a,
+.post-navigation .nav-next a {
+  color: #fd3a13 !important; }
+
+.comments-area {
+  border-top: 5px solid #fd3a13;
+  font-size: 15px;
+  padding: 30px;
+  font-weight: 300; }
+  .comments-area .comment-reply-title {
+    color: #000;
+    font-size: 22px;
+    font-weight: bold; }
+  .comments-area #commentform label {
+    color: #000; }
+
+input[type='submit'] {
+  transition: all .3s ease;
+  background-color: #fd3a13 !important;
+  font-size: 15px;
+  font-weight: 300; }
+  input[type='submit']:hover {
+    background-color: #e97067 !important; }
 
 img.social-ico:hover {
   -webkit-filter: grayscale(75%);
